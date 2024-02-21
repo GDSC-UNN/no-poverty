@@ -201,6 +201,7 @@ class WelcomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            SizedBox(height: 20),
             SectionButton(
               title: 'Emergency Assistance Information',
               onPressed: () {
